@@ -1,8 +1,9 @@
 import React from "react";
-import Counter from "../Counter"
+import Counter from "../LikeList"
+import LikeList from "../LikeList";
 
 const App = ( ) => {
-  return <Counter/>;
+  return <LikeList/>;
 };
 
 export default App;
